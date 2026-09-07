@@ -1,0 +1,15 @@
+{
+  "name": "detective-telegram-bot",
+  "version": "0.1.0",
+  "description": "Jogo de dedução social estilo Detetive (Clue) para Telegram",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "grammy": "^1.21.1",
+    "dotenv": "^16.4.5"
+  }
+}
